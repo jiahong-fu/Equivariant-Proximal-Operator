@@ -18,7 +18,7 @@ Pretrained models of KXNet and KXNet_EX are available as [here](https://github.c
 
 ### Dataset Preparation
 For train
-We use [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and [Flickr2K](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar) as our training datasets. Download them and put the images in [DIV2K_Flickr2K](./codes/data/DIV2K_Flickr2K).
+We use [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and [Flickr2K](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar) as our training datasets. Download them and put the images into [DIV2K_Flickr2K](./codes/data/DIV2K_Flickr2K).
 
 For evaluation, we use four datasets, i.e., [Set5](https://uofi.box.com/shared/static/kfahv87nfe8ax910l85dksyl2q212voc.zip), [Set14](https://uofi.box.com/shared/static/igsnfieh4lz68l926l8xbklwsnnk8we9.zip), [Urban100](https://uofi.box.com/shared/static/65upg43jjd0a4cwsiqgl6o6ixube6klm.zip), and [BSD100](https://uofi.box.com/shared/static/qgctsplb8txrksm9to9x01zfa4m61ngq.zip). All test datesets can be downloaded from [BaiduYun](https://pan.baidu.com/s/1ShoqALXdzsELDKPbexNFtQ) (Password: uag1).
 
