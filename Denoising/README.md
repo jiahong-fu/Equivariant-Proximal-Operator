@@ -8,7 +8,7 @@
 
 ### Quick Start for Testing
 ```
-python main_test.py --model resnet_fconv --scale 1 --pre_train ../experiment/FConv/model/model_best.pt --save ../experiment/FConv/ --kernel_size 5 --n_resblocks 16 --n_feats 32 --res_scale 0.1 --tranNum 8 --device 0 --date_test Set5
+python main_test.py --model resnet_fconv --scale 1 --pre_train ../experiment/FConv/model/model_best.pt --save ../experiment/FConv/ --kernel_size 5 --n_resblocks 16 --n_feats 32 --res_scale 0.1 --tranNum 8 --device 0 --data_test Set5
 ```
 
 ### Pretrained Models
