@@ -13,6 +13,9 @@ cd codes/config/KXNet
 python3 test.py -opt ./options/setting2/test/test_setting2_x2_EX.yml
 ```
 
+## Pretrained models
+Pretrained models of KXNet are available as [here](https://github.com/jiahong-fu/Equivariant-Proximal-Operator/releases/tag/v1.0). Download the models to [./checkpoints](./checkpoints)
+
 ### Dataset Preparation
 For train
 We use [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and [Flickr2K](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar) as our training datasets. Download them and put the images in [DIV2K_Flickr2K](./codes/data/DIV2K_Flickr2K).
