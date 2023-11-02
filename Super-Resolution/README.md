@@ -14,7 +14,7 @@ python3 test.py -opt ./options/setting2/test/test_setting2_x2_EX.yml
 ```
 
 ## Pretrained models
-Pretrained models of KXNet are available as [here](https://github.com/jiahong-fu/Equivariant-Proximal-Operator/releases/tag/v1.0). Download the models to [./checkpoints](./checkpoints)
+Pretrained models of KXNet_EX are available as [here](https://github.com/jiahong-fu/Equivariant-Proximal-Operator/releases/tag/v1.0). Download the models to [./checkpoints](./checkpoints)
 
 ### Dataset Preparation
 For train
