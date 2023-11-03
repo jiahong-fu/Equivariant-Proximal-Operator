@@ -3,5 +3,5 @@ code of "Rotation Equivariant Proximal Operator for Deep Unfolding Methods in Im
 
 ## Usage:
 ```
-Detail usage can be found in the corresponding subfolders (such as [./Super-Resolution/](./Super-Resolution/)).
+Detail usage can be found in the corresponding subfolders (such as./Super-Resolution/).
 ```
