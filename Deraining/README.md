@@ -11,7 +11,7 @@ conda activate rcd_torch1.0
 ```
 
 ### Pretrained Models
-The Pretrained equivariant proximal based models of RCDNet_EB is available as [here](https://pan.baidu.com/s/1-gb8gvb9Z_QwpQI_0CR5Bw) (Password: dk2a). Download the models to [Pretrained Model](./Pretrained%20Model/)
+The Pretrained equivariant proximal based models of RCDNet_EB is available as [here](https://pan.baidu.com/s/1-gb8gvb9Z_QwpQI_0CR5Bw) (Password: dk2a). Download the models to [Pretrained_Model](./Pretrained_Model/)
 
 ### Dataset & Training & Testing
 Please refer to the original coding framework [RCDNet](https://github.com/hongwang01/RCDNet) to execute the training and testing process.
