@@ -14,6 +14,8 @@ Download the training dataset train_640geo by [[BaiduYun]](https://pan.baidu.com
 
 Download the testing dataset test_640geo by [[BaiduYun]](https://pan.baidu.com/s/1EC2rgU4MWPt6PI9t5PHZ-g) (Password: 5ta7) and put them into [./data/test/](./data/test/).
 
+Training and testing datasets can also available here [[BaiduYun]](https://pan.baidu.com/s/1Tu-vTrx7OYCr7eoRDoAgDw?pwd=dicd#list/path=%2F) (Password:dicd).
+
 ### Train
 ```
 cd xxx
