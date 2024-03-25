@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-# IJCAI 2022
-# Adaptive Convolutional Dictionary Network for CT Metal Artifact Reduction
-
 from __future__ import print_function
 import argparse
 import os
@@ -15,7 +10,7 @@ import torch.optim as optim
 import time
 import numpy as np
 from tensorboardX import SummaryWriter
-from OSCNet_FConv import OSCNet
+from DICDNet_FConv import DICDNet
 from torch.utils.data import DataLoader
 from Dataset import MARTrainDataset, MARValDataset
 from math import ceil
