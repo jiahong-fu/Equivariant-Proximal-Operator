@@ -1,8 +1,3 @@
-# IJCAI 2022
-# Adaptive Convolutional Dictionary Network for CT Metal Artifact Reduction
-
-### zhegeshi DICDNet
-
 import torch
 import torch.nn as nn
 import numpy as np
@@ -23,9 +18,9 @@ Dini= Dini[0:1, 0:32, :, :]
 # Filtering on the XLI for initializing P^(0)  and X^(0), refer to Sec 1.2 in supplementary material (SM)
 filter = torch.FloatTensor([[1.0, 1.0, 1.0], [1.0, 1.0, 1.0], [1.0, 1.0, 1.0]]) / 9
 filter = filter.unsqueeze(dim=0).unsqueeze(dim=0)
-class OSCNet(nn.Module):
+class DICDNet(nn.Module):
     def __init__(self, args):
-        super(OSCNet, self).__init__()
+        super(DICDNet, self).__init__()
         self.T  = args.T                                            # Stage number T includes the initialization process
         self.iters = self.T -1                                      # not include the initialization process
         # self.d = args.d                                             # the number d of kernel in the dictionary D
