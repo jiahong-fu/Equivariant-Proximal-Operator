@@ -15,7 +15,7 @@ import torch.optim as optim
 import time
 import numpy as np
 from tensorboardX import SummaryWriter
-from OSCNet_FConv import OSCNet
+from DICDNet_FConv import DICDNet
 from torch.utils.data import DataLoader
 from Dataset import MARTrainDataset, MARValDataset
 from math import ceil
