@@ -9,7 +9,7 @@ from utils import utils_image
 import PIL
 from PIL import Image
 import utils.save_image as save_img
-from OSCNet import OSCNet
+from DICDNet import DICDNet
 
 parser = argparse.ArgumentParser(description="OSCNet_Test")
 parser.add_argument("--model_dir", type=str, default="models/OSCNet_latest.pt", help='path to model file')
